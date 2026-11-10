@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chai Dhaba - Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Karak Chai Dhaba</h1>
+    <p class="tagline">Glimpses of Our Dhaba Vibe</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <main>
+    <h2>Our Atmosphere & Brews</h2>
+    <p>Take a look at how we prepare our signature teas every day.</p>
+
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 25px;">
+      <div>
+        <img src="images/chai1.jpg" alt="Hot Karak Chai Cup" width="250">
+        <p><strong>Hot Karak Chai</strong></p>
+      </div>
+      <div>
+        <img src="images/dhaba_vibe.jpg" alt="Dhaba Seating" width="250">
+        <p><strong>Dhaba Evening Vibe</strong></p>
+      </div>
+      <div>
+        <img src="images/paratha.jpg" alt="Fresh Paratha" width="250">
+        <p><strong>Crispy Layered Paratha</strong></p>
+      </div>
+    </div>
+
+    <button onclick="viewGalleryAlert()">Explore Location</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Karak Chai Dhaba | Furqan (26i3066) - Section B</p>
+  </footer>
+
+  <script>
+    function viewGalleryAlert() {
+      alert("Visit us in Islamabad for the live outdoor dhaba experience!");
+      console.log("Gallery alert button clicked on gallery.html");
+    }
+  </script>
+
+</body>
+</html>
