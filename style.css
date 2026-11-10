@@ -1,0 +1,71 @@
+/* 
+  Name: Your Name
+  Roll Number: i25XXXX
+  Section: SE-B
+*/
+
+/* Page Background & Font */
+body {
+    background-color: #fdf6e3;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    text-align: center;
+}
+
+/* Headings Styling */
+h1 {
+    color: #8b4513;
+    font-size: 32px;
+}
+
+h2 {
+    color: #a0522d;
+    font-size: 24px;
+}
+
+/* Table Styling */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #8b4513;
+    color: white;
+}
+
+/* Button Styling */
+button {
+    background-color: #8b4513;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0522d;
+}/* Image Container Centering */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Image Styling */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}

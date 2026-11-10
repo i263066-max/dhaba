@@ -1,0 +1,76 @@
+<!-- 
+  Name: Your Name
+  Roll Number: i25XXXX
+  Section: SE-B
+  Lab 11: HTML, CSS and JavaScript
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Corner Menu</title>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Heading -->
+    <h1>Chai Corner Menu</h1>
+
+    <!-- Image -->
+    <div class="image-container">
+        <img src="https://www.jcookingodyssey.com/indian-masala-chai-spiced-milk-tea/" alt="Chai Image" width="300">
+    </div>
+
+    <!-- Description -->
+    <p>Welcome to Chai Corner! Enjoy our fresh, handmade tea and snacks.</p>
+
+    <!-- Menu Table -->
+    <h2>Menu Items</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Category</th>
+                <th>Price (PKR)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Karak Chai</td>
+                <td>Tea</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Doodh Patti</td>
+                <td>Tea</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Samosa (2 pcs)</td>
+                <td>Snacks</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <!-- Interactive Button -->
+    <button onclick="orderChai()">Order Chai</button>
+
+    <!-- Task 3 JavaScript -->
+    <script>
+        function orderChai() {
+            // Browser console mein message print hoga
+            console.log("Order button was clicked for Chai.");
+            
+            // Screen par pop-up message show hoga
+            window.alert("Your order for Karak Chai has been placed!");
+        }
+    </script>
+
+</body>
+</html>
