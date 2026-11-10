@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chai Dhaba - Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Karak Chai Dhaba</h1>
+    <p class="tagline">Visit Us or Get in Touch</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Location & Timings</h2>
+    <p>Open daily from 4:00 PM to 2:00 AM for fresh brews and warm vibes.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Detail</th>
+          <th>Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Location</td>
+          <td>F-7 Markaz, Islamabad</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>+92 300 1234567</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>info@karakchaidhaba.pk</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button onclick="contactAlert()">Send Message</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Karak Chai Dhaba | Furqan (26i3066) - Section B</p>
+  </footer>
+
+  <script>
+    function contactAlert() {
+      alert("Thank you for reaching out! We will get back to you soon.");
+      console.log("Contact form button clicked on contact.html");
+    }
+  </script>
+
+</body>
+</html>
